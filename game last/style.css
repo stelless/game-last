@@ -1,0 +1,40 @@
+body {
+   text-align: center; 
+  background: #f4f6fb;
+  color:#2647a6  
+}
+
+h1 {
+  color: #2647a6;
+}
+
+span {
+  margin: 0 12px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#message {
+  color: green;
+  font-weight: bold;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card {
+  height: 100px;
+  background: #2647a6;
+  border-radius: 8px;
+  cursor: pointer;
+} 
